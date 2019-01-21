@@ -18,7 +18,7 @@ const app = express(); //alias from the express function
 
 //sendgrid api key
 sgMail.setApiKey(
-  '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',
+  'SG._...',
 );
 
 app.use(cors()); //utilize Cors so the browser doesn't restrict data, without it Sendgrid will not send!
